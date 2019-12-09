@@ -1,0 +1,340 @@
+# Created at 2019-12-09T08:48:03.008
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [Rookout-Test-DH]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [Rookout-Test-DH]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:03.022
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [PlayT11]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [PlayT11]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:03.024
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [Play11]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [Play11]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:03.212
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Full Agent Registration Info Resolver using selfService [false]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Full Agent Registration Info Resolver using selfService [false]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:03.218
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Full Agent Registration Info Resolver using selfService [false]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Full Agent Registration Info Resolver using selfService [false]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:03.219
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Full Agent Registration Info Resolver using application name [Rookout-Test-DH]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Full Agent Registration Info Resolver using application name [Rookout-Test-DH]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:03.223
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Full Agent Registration Info Resolver using tier name [PlayT11]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Full Agent Registration Info Resolver using tier name [PlayT11]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:03.225
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Full Agent Registration Info Resolver using node name [Play11]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Full Agent Registration Info Resolver using node name [Play11]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:03.228
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Install Directory resolved to[C:\appdynamics\AppServerAgent-4.5.13.27328\]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Install Directory resolved to[C:\appdynamics\AppServerAgent-4.5.13.27328\]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.668
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Agent conf directory set to [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\conf]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Agent conf directory set to [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\conf]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.673
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Agent conf directory set to [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\conf]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Agent conf directory set to [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\conf]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.678
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[DEBUG]: AgentInstallManager - Full Agent Registration Info Resolver is running'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[DEBUG]: AgentInstallManager - Full Agent Registration Info Resolver is running'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.680
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [Rookout-Test-DH]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [Rookout-Test-DH]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.681
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [PlayT11]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [PlayT11]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.685
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [Play11]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [Play11]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.879
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using selfService [false]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using selfService [false]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.884
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using selfService [false]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using selfService [false]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.886
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using application name [Rookout-Test-DH]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using application name [Rookout-Test-DH]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.887
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using tier name [PlayT11]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using tier name [PlayT11]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.892
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using node name [Play11]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Full Agent Registration Info Resolver using node name [Play11]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.897
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[DEBUG]: AgentInstallManager - Full Agent Registration Info Resolver finished running'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[DEBUG]: AgentInstallManager - Full Agent Registration Info Resolver finished running'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.900
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Agent runtime directory set to [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Agent runtime directory set to [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.909
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Agent node directory set to [Play11]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Agent node directory set to [Play11]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.912
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Agent runtime conf directory set to C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\conf'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Agent runtime conf directory set to C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\conf'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.915
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Agent runtime conf directory set to C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\conf'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: AgentInstallManager - Agent runtime conf directory set to C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\conf'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.921
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Using Java Agent Version [Server Agent #4.5.13.27328 v4.5.13 GA compatible with 4.4.1.0 r6937e459358d98e1c9c82b64c6694cb37a140096 pull-requests/2571]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Using Java Agent Version [Server Agent #4.5.13.27328 v4.5.13 GA compatible with 4.4.1.0 r6937e459358d98e1c9c82b64c6694cb37a140096 pull-requests/2571]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.924
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Running IBM Java Agent [No]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Running IBM Java Agent [No]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.927
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Java Agent Directory [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Java Agent Directory [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.934
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Java Agent AppAgent directory [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Java Agent AppAgent directory [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.950
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Agent logging directory set to [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\logs]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Agent logging directory set to [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\logs]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:04.952
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Agent logging directory set to [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\logs]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '[Thread-1] Mon Dec 09 08:48:04 EST 2019[INFO]: JavaAgent - Agent logging directory set to [C:\appdynamics\AppServerAgent-4.5.13.27328\ver4.5.13.27328\logs]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:06.294
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running obfuscated agent'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running obfuscated agent'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:09.186
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Registered app server agent with Node ID[400] Component ID[22] Application ID [8]'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Registered app server agent with Node ID[400] Component ID[22] Application ID [8]'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-09T08:48:12.908
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Started AppDynamics Java Agent Successfully.'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Started AppDynamics Java Agent Successfully.'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+

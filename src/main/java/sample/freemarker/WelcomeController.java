@@ -17,9 +17,7 @@
 package sample.freemarker;
 
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Map;
+import java.util.*;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
@@ -30,7 +28,6 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.websocket.server.PathParam;
 
-import java.util.List;
 import java.util.logging.Logger;
 
 
@@ -47,6 +44,11 @@ public class WelcomeController {
 		return "welcome";
 	}*/
 
+	final static int MAX_SCORE = 800;
+	int customerid;
+	String applicationid;
+	int score = 650;
+
 	@GetMapping("/hello")
 	public ResponseEntity hello() throws Exception {
 		final String uri = "http://localhost:7073/testmicroservice1/hello/test";
@@ -58,6 +60,46 @@ public class WelcomeController {
 		return new ResponseEntity<>(result, HttpStatus.OK);
 
 	}
+
+	@GetMapping("/credit_check")
+	protected ResponseEntity doGet() {
+		try {
+			boolean found;
+			boolean approve = false;
+			String message = "No application found for credit approval";
+
+
+				double adjustedAmount = 10.00;
+
+				// offer platinum members higher loan amounts based on the credit score
+				if ( qualifiesForPromo()){
+					long coeff = (MAX_SCORE-650)/MAX_SCORE;
+					double adjustment = 10/coeff;
+					adjustedAmount += adjustment;
+				}
+
+
+				message = "Customer ID:" + customerid + " FICO Score: " + score + " Level: " + " Approved: " + approve + " Proposed Amount: " + adjustedAmount;
+
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			return new ResponseEntity<>("Threw Java Exception", HttpStatus.INTERNAL_SERVER_ERROR);
+
+		}
+		return new ResponseEntity<>("", HttpStatus.OK);
+
+	}
+
+
+
+	private boolean qualifiesForPromo(){
+		int max = 10;
+		Random random = new Random();
+		int next = random.nextInt(max ) + 1;
+		return next <= max/2 + max/5; //70%
+	}
+
 
 
 	@GetMapping("/java_error")

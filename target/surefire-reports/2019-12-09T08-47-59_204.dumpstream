@@ -1,0 +1,3 @@
+# Created at 2019-12-09T08:48:25.459
+Picked up JAVA_TOOL_OPTIONS: -javaagent:rook.jar  -javaagent:C:\appdynamics\AppServerAgent-4.5.13.27328\javaagent.jar -DROOKOUT_TOKEN=1e621051e61fdbdfdb6bc30784ad654038605ff79578949fc36e1d9d7cb3696f -DROOKOUT_LABELS=env:dev -Dappagent.install.dir=C:\appdynamics\AppServerAgent-4.5.13.27328\ -Dappdynamics.agent.nodeName=Play11 -Dappdynamics.agent.tierName=PlayT11 -Dappdynamics.controller.hostName=459controllernossh-roadcap-dde7lubk.srv.ravcloud.com -Dappdynamics.controller.port=8090 -Dappdynamics.agent.accountName=customer1 -Dappdynamics.agent.accountAccessKey=cacb6ae1-821e-4b53-9c4c-f4ce2f60fde3 -Dappdynamics.controller.ssl.enabled=false -Dappdynamics.agent.applicationName=Rookout-Test-DH
+
